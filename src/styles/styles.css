@@ -1,0 +1,279 @@
+body{
+    width: 1366px;
+    height: 915px;
+    position: relative;
+}
+.bus{
+    background-color: rgb(255, 247, 0);
+    border: 3px solid black;
+    width: 100%;
+    height: 500px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 50px;
+}
+.mwindow{
+    width: 50px;
+    height: 300px;
+    background-color: white;
+    border: 0.5px solid black;
+    position: absolute;
+    top: 0px;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 10px;
+}
+.driverwindow{
+    height: 200px;
+    width: 16%;
+    border: 1px solid black;
+    background-color: beige;
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    border-radius: 10px;
+}
+.mirror{
+    position: absolute;
+    width: 18px;
+    height: 150px;
+    background-color: rgb(255, 247, 0);
+    border: 3px solid black;
+    top: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+}
+.mirror2{
+    width: 50px;
+    height: 26px;
+    background-color:rgb(255, 247, 0);
+    position: absolute;
+    border: 3px solid black;
+    top: 0%;
+    border-right-color: rgb(255, 247, 0);
+    border-bottom-color: rgb(255, 247, 0);
+}
+.wind01{
+    height: 200px;
+    width: 800px;
+    border: 1px solid black;
+    background-color: beige;
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    border-radius: 10px;
+}
+.wind02{
+    position: absolute;
+    border-color: (255, 247, 0);
+    border: 1px solid black;
+    background-color: azure;
+    width: 10px;
+    height: 198px;
+    left: 48%;
+    top: 7.1%;
+}
+.wind03{
+    position: absolute;
+    border-color: (255, 247, 0);
+    border: 1px solid black;
+    background-color: azure;
+    width: 10px;
+    height: 198px;
+    left: 64%;
+    top: 7.1%;
+}
+.wind04{
+    position: absolute;
+    border-color: (255, 247, 0);
+    border: 1px solid rgb(105, 105, 105);
+    background-color: azure;
+    width: 10px;
+    height: 199px;
+    left: 80%;
+    top: 7.1%;
+}
+.door{
+    position: absolute;
+    height: 420px;
+    width: 140px;
+    background-color: yellow;
+    border-color: black;
+    border: 1px solid black;
+    top: 7%;
+    left: 23%;
+}    
+.dwindow{
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    color: rgb(255, 247, 0);
+    background-color:  beige;
+    top: 5%;
+    left: 9%;
+    border-color: black;
+    border: 1px solid black;
+}
+.handle{
+    position:absolute;
+    width: 80%;
+    height: 5%;
+    background-color: rgb(177, 174, 174);
+    border-color: rgb(155, 155, 155);
+    top: 60%;
+    left: 10%;
+    rotate: 20%;
+
+}.handstand{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(177, 174, 174);
+    top: 23%;
+}
+.wheel00{
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
+    border: 20px solid black;
+    top: 44%;
+    left: 3%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation: wheel00 1s linear infinite;
+    animation-direction: reverse;
+}
+
+
+.wheel01{
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
+    border: 20px solid black;
+    top: 44%;
+    left: 75%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation: wheel00 1s linear infinite;
+    animation-direction: reverse;
+}
+.wheel02{
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
+    border: 20px solid black;
+    top: 44%;
+    left: 57%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation: wheel00 1s linear infinite;
+    animation-direction: reverse;
+}
+
+.wheel00_D00{
+    position: absolute;
+    width: 75%;
+    height: 25%;
+    background-color: black;
+    top: 40%;
+    left: 13%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-direction: normal;
+   
+}
+@keyframes wheel00{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}   
+.wheel00_D01{
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    background-color: black;
+    top: 15%;
+    left: 38%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+
+
+.wheel01_D00{
+    position: absolute;
+    width: 75%;
+    height: 25%;
+    background-color: black;
+    top: 40%;
+    left: 13%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+.wheel01_D01{
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    background-color: black;
+    top: 15%;
+    left: 38%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+
+.wheel02_D00{
+    position: absolute;
+    width: 75%;
+    height: 25%;
+    background-color: black;
+    top: 40%;
+    left: 13%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+.wheel02_D01{
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    background-color: black;
+    top: 15%;
+    left: 38%;
+    border-radius: 50%;
+    animation-name: wheel00;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: normal;   
+    }
